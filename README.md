@@ -5,6 +5,13 @@ e.g., the famous [Eclipse Mosquitto](https://projects.eclipse.org/projects/techn
 After data made the hop to the MQTT broker it can be used by home automation software, like [Home Assistant](https://www.home-assistant.io/).
 
 The program can be executed in **daemon mode** to run continuously in the background, e.g., as a systemd service.
+
+## Changes in this fork
+* Add detection range setting
+* Update requirements
+* Add serial_console_untouched (allows running as non-root)
+* Add systemd explanation to README
+
 ## Features
 
 * Tested with MH-Z19 sensor
@@ -18,7 +25,7 @@ The program can be executed in **daemon mode** to run continuously in the backgr
 * No special/root privileges needed
 * Daemon mode (default)
 * Systemd service, sd\_notify messages generated
-* Tested on Raspberry Pi 3
+* Tested on Raspberry Pi 4
 
 ### Readings
 
